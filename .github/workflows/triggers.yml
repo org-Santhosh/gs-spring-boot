@@ -1,6 +1,6 @@
 name: CI
 
-# Run this workflow every time a commit is pushed to main or a pull request is opened against main
+# Run this workflow every time a commit is pushed to main or a pull request is opened against master
 on:
   push:
     branches:
