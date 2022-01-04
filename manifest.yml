@@ -3,4 +3,4 @@ applications:
 - name: cicd-sapcloudfoundary-example
   instances: 1
   memory: 800m
-  path: target/gs-spring-boot-0.1.0.jar
+  path: gs-spring-boot-0.1.0.jar
