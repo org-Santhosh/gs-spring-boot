@@ -17,6 +17,6 @@ jobs:
         - name: Azure Pipelines Action
           uses: Azure/pipelines@v1
           with:
-            azure-devops-project-url: https://dev.azure.com/ramyaravindra/Java-springboot
-            azure-pipeline-name: 'Ramya-ravindrachari.gs-spring-boot'
+            azure-devops-project-url: https://dev.azure.com/thaniish/simpe
+            azure-pipeline-name: 'simple-Maven-CI'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
