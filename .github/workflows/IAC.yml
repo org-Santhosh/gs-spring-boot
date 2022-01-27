@@ -3,7 +3,7 @@ name: IAC deployment
 #creating event whenever commit happens it will trigger
 on:
   push:
-    branches: [ master ]
+    branches: [ branch_graddlebuild ]
 #creating job
 jobs:
   IAC:
