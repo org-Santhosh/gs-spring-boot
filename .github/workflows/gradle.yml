@@ -3,7 +3,7 @@ on:
   workflow_run:
     workflows: [IAC deployment] 
     types: [completed]
-    branches: [ branch_geaddlebuild ]
+    branches: [ branch_graddlebuild ]
 
 #starting buildjob
 jobs:
