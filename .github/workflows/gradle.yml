@@ -27,8 +27,7 @@ jobs:
           arguments: build
           
       - run: |
-          ls '${{ github.workspace }}'/build/libs
-
+          ls '${{ github.workspace }}'
           
       - name: Step5 Jfrog artifactory
         uses: jfrog/setup-jfrog-cli@v2.0.0
