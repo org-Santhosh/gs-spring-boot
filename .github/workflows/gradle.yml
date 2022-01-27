@@ -30,7 +30,6 @@ jobs:
           ls '${{ github.workspace }}'
           ls '${{ github.workspace }}'/test 
           ls '${{ github.workspace }}'/app
-          ls '${{ github.workspace }}'/gradle/wrapper
           ls /home/runner/gradle-installations/installs/gradle-4.1/
           
       - name: Step5 Jfrog artifactory
