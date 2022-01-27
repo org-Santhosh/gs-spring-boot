@@ -28,6 +28,7 @@ jobs:
           
       - run: |
           ls '${{ github.workspace }}'
+          ls '/home/runner/work/gs-spring-boot/gs-spring-boot'
           
       - name: Step5 Jfrog artifactory
         uses: jfrog/setup-jfrog-cli@v2.0.0
