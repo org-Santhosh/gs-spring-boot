@@ -27,12 +27,8 @@ jobs:
           arguments: build
           
       - run: |
-          ls '${{ github.workspace }}'
-          ls '${{ github.workspace }}'/test 
-          ls '${{ github.workspace }}'/app
-          ls /home/runner/gradle-installations/installs/gradle-4.1/
-          ls /home/runner/gradle-installations/installs/gradle-4.1/bin
-          ls /home/runner/gradle-installations/installs/gradle-4.1/lib
+          ls '${{ github.workspace }}'/build/libs
+
           
       - name: Step5 Jfrog artifactory
         uses: jfrog/setup-jfrog-cli@v2.0.0
