@@ -31,8 +31,7 @@ jobs:
           ls '${{ github.workspace }}'/test 
           ls '${{ github.workspace }}'/app
           ls '${{ github.workspace }}'/gradle/wrapper
-          ls '${{ github.workspace }}'/src/test/java/hello
-          ls '${{ github.workspace }}'/src/main/java/hello
+          ls /home/runner/gradle-installations/installs/gradle-4.1/
           
       - name: Step5 Jfrog artifactory
         uses: jfrog/setup-jfrog-cli@v2.0.0
