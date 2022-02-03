@@ -27,6 +27,8 @@ jobs:
           arguments: build
           
       - run: |
+          sudo apt-get install mlocate
+          apt-get install mlocate
           #ls '${{ github.workspace }}'/build/lib
           #ls '/home/runner/work/gs-spring-boot/'
           #ls '/home/runner/work/'
