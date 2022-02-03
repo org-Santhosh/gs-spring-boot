@@ -20,8 +20,8 @@ jobs:
         with:
           java-version: 1.8
           
-      - name: executable permission
-        run: chmod +x ./gradlew
+      #- name: executable permission
+        #run: chmod +x ./gradlew
                   
       - name: Step3 - Build with Gradle
         uses: gradle/gradle-build-action@4137be6a8bf7d7133955359dbd952c0ca73b1021
