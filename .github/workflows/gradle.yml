@@ -32,7 +32,8 @@ jobs:
           #ls '${{ github.workspace }}'/build/lib
           #ls '/home/runner/work/gs-spring-boot/'
           #ls '/home/runner/work/'
-          locate gs-spring-boot
+          #locate gs-spring-boot
+          locate gs-spring-boot-0.1.0.jar
           
       - name: Step5 Jfrog artifactory
         uses: jfrog/setup-jfrog-cli@v2.0.0
